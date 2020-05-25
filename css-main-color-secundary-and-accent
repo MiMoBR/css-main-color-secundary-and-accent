@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  
+  <style>
+  #mainColor{
+  line-height:2;
+  text-align:center;
+  color:#ffffff;
+  background-color:hsl(230, 76%, 60%);/*vibrante color*/
+  content:"";
+  border-radius:2rem;
+}
+#SecundaryColor{
+  line-height:2;
+  text-align:center;
+  color:#333;
+  background-color: hsla(230,6%, 100%, 1);/* saturation -70% -- brightness  +40% */
+  content:"";
+  border-radius:2rem;
+}
+#accentColor{
+
+  line-height:2;
+  text-align:center;
+  color:#333;
+  background-color: hsla(190, 76%, 65%, 1);/* hue -40 -- brightness +5% */
+  content:"";
+  border-radius:2rem;
+}
+
+.body{
+  height: 14rem !important;
+  width: 10rem !important;
+  padding: 1rem;
+}
+  </style>
+  
+</head>
+<body>
+  <div id="mainColor">
+    Main Color 60%
+  </div>
+  <div id="SecundaryColor">
+    Secundary Color 30%
+  </div>
+  <div id="accentColor">
+    Accent Color 10%
+  </div>
+  <hr>
+  <div id="mainColor" class="body">
+    <div>
+      <h1 id="SecundaryColor">Content</h1>
+    </div>
+    <div id="accentColor">
+      <a id="accentColor">Click here!</a>
+    </div>
+  </div>
+</body>
+</html>
